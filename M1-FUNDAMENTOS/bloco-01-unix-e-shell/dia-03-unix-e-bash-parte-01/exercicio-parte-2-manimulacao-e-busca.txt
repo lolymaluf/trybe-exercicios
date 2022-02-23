@@ -1,0 +1,23 @@
+ls
+_TRYBE
+LS
+ls
+cd_TRYBE
+cd _TRYBE
+LS
+ls
+CD TRYBE-EXERCICIOS
+cd TRYBE-EXERCICIOS
+cd M1-FUNDAMENTOS
+cd bloco-01-unix-e-shell
+cd dia-03-unix-e-bash-parte-01
+touch exercicio-parte-2-manimulacao-e-busca.txt
+cd ../../..
+cd ..
+touch skills.txt
+cat skills.txt
+cat > skills.txt
+head -5 skills.txt
+tail -4 skills.txt
+rm *.txt
+clear

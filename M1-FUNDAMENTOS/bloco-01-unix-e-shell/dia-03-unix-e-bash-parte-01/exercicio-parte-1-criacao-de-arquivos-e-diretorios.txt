@@ -1,0 +1,38 @@
+ls
+cd _TRYBE
+ls
+cd TRYBE-EXERCICIOS
+LS
+ls
+cd M1-FUNDAMENTOS
+ls
+cd bloco-01-unix-e-shell
+ls
+mkdir exercicio-parte-1-criacao-de-arquivos-e-diretorios
+ls
+cd dia-03-unix-e-bash-parte-01
+ls
+mkdir exercicio-parte-1-criacao-de-arquivos-e-diretorios
+ls
+cd exercicio-parte-1-criacao-de-arquivos-e-diretorios
+mkdir unix_tests
+cd unix_tests
+touch trybe.txt
+cp trybe.txt trybe_backup.txt
+ls
+mv trybe.txt trybe-renomeado.txt
+ls
+mkdir backup
+mv trybe_backup.txt ~/_TRYBE/TRYBE-EXERCICIOS/M1-FUNDAMENTOS/bloco-01-unix-e-shell/dia-03-unix-e-bash-parte-01/exercicio-parte-1-criacao-de-arquivos-e-diretorios/unix_tests/backup
+ls
+mkdir backup2
+cd backup
+ls
+mv trybe_backup.txt ~/_TRYBE/TRYBE-EXERCICIOS/M1-FUNDAMENTOS/bloco-01-unix-e-shell/dia-03-unix-e-bash-parte-01/exercicio-parte-1-criacao-de-arquivos-e-diretorios/unix_tests/backup2
+rmdir backup
+cd ..
+ls
+rmdir backup
+ls
+clear
+history
