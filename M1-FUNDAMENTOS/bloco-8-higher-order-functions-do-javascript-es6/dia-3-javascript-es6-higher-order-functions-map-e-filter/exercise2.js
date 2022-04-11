@@ -92,6 +92,25 @@ const expectedResult = [
 
 Dica: use as funções map , sort */
 
+/* function nameAndAge() {
+  return books.map((book) => ({
+   age: book.author.releaseYear - book.author.birthYear,
+   author: book.author.name
+ }))
+ .sort((a, b) => (a.age) - (b.age))
+ console.log(authorAge);
+}
+nameAndAge();
+ */
   function nameAndAge() {
-      const AuthorAge = expectedResult.map((b))
+      let authorAge = books.map((book) => ({
+        age: book.releaseYear - book.author.birthYear, 
+        author: book.author.name
+      }))
+      .sort((a, b) => (a.age) - (b.age))
+      console.log(authorAge);
   }
+  nameAndAge();
+
+  /* É um objeto, por isto parentese antes da chave da função (explicado na monitoria do Leite) ({}) e por isto é dividido com : e separado por vírgula.
+  o .sort tem esta sintaxe e se fosse em ordem decrescente, seria b - a fdgd ghgf hjghj */
