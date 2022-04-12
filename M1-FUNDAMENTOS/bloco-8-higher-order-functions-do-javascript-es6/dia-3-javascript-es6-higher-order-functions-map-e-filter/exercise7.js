@@ -68,11 +68,11 @@ const books = [
   const expectedResult = 'O Senhor dos Anéis';
 
   function authorWith3DotsOnName() {
-    let autor3Iniciais = books.filter((book) => (
-      book.author.name[1] === '.'
-      && book.author.name[4] === '.'
-      && book.author.name[7] === '.'
-    ))[0].name;
+    let autor3Iniciais = books.filter((book) => (book.author.name[1, 4, 7] === '.'))[0].name;
     console.log(autor3Iniciais);
   }
   authorWith3DotsOnName();
+
+
+  /* o [0] é porque so mostrava o objeto inteiro. Entao tive que tratar como um array para conseguir alcançar a chave 'name' dentro dele
+  quando coloco o [0], trata o objeto como array, remove as chaves. sendo assim, consigo manipular as propriedades internas*/
