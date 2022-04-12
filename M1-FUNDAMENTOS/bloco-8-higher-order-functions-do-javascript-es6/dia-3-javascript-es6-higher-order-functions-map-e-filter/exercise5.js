@@ -74,7 +74,7 @@ function fantasyOrScienceFictionAuthors() {
   const generoFF = ["Ficção Científica", "Fantasia"];
   const imprimirFF = books
     .filter((livrosFF) => generoFF.includes(livrosFF.genre))
-    .map((livrosFF) => livrosFF.author.name)
+    .map((mapearLivrosFF) => mapearLivrosFF.author.name)
     .sort();
   console.log(imprimirFF);
 }
