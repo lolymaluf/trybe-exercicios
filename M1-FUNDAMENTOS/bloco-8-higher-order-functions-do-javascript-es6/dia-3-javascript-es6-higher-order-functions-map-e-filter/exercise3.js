@@ -99,8 +99,8 @@ Dica: use a função filter ; */
   function fantasyOrScienceFiction() {
     let generoFiccao = books.filter ((ficcao) => ficcao.genre === 'Ficção Científica');
     let generoFantasia = books.filter ((fantasia) => fantasia.genre === 'Fantasia')
-    console.log(generoFiccao);
-    console.log(generoFantasia);
+    ficcaoFantasia = Array.prototype.concat(generoFantasia, generoFiccao);
+    console.log(ficcaoFantasia);
   }
   fantasyOrScienceFiction();
 
