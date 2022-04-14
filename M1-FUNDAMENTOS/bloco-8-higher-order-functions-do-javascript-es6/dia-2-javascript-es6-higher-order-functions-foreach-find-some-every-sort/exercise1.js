@@ -65,14 +65,14 @@ const books = [
 
   Dica: use a função find . */
 
-  function authorBornIn1947(ano) {
+  function authorBornIn1947() {
     let procuraNosLivros = books.find((livroEncontrado) => {
         let anoNascimento = livroEncontrado.author.birthYear;
-        return anoNascimento === ano
+        return anoNascimento === 1947
     })
     return procuraNosLivros.author.name
   }
-  console.log(authorBornIn1947(1947)); 
+  console.log(authorBornIn1947()); 
 
 /* Entender pq não funcionaria da primeira maneira tentada abaixo: */
 
