@@ -74,5 +74,8 @@ const books = [
   };
   
   function getNamedBook() {
-    // escreva seu código aqui
+    let nome26Caracteres = books.sort((nome26Caracteres, index) => nome26Caracteres.author.name.length === 26)
+    console.log(nome26Caracteres);
+    return getNamedBook
   }
+  getNamedBook();
