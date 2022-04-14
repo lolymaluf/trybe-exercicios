@@ -108,7 +108,11 @@ const expectedResult = [
     releaseYear: 1928,
   },
 ];
+/* 4 - Ordene os livros por data de lançamento em ordem decrescente. */
 
 function booksOrderedByReleaseYearDesc() {
-  // escreva aqui seu código
+  return books.sort((a, b) => {
+    return b.releaseYear - a.releaseYear;
+  });
 }
+console.log(booksOrderedByReleaseYearDesc());
