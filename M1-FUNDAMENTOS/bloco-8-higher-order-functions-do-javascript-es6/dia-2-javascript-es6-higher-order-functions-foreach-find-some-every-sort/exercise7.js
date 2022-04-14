@@ -66,5 +66,12 @@ const books = [
   const expectedResult = false;
 
 function authorUnique() {
-  // escreva seu código aqui
+  return books.some((anoNascimento, i) => {
+    let anoNascimento = anoNascimento.author.birthYear;
+    for (let index = 0; index < anoNascimento.length; index+=1) {
+     if 
+        
+     }
+    }
+  })
 }
