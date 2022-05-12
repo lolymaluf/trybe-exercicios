@@ -1,8 +1,8 @@
 import React from 'react';
 /* import pokemons from './data'; */
 
-class Pokes extends React.Component {
-  render{) {
+class App extends React.Component {
+  render() {
     const {pokemons} = this.props
     const{name, type, image, averageWeight} = pokemons
     return(
@@ -15,3 +15,5 @@ class Pokes extends React.Component {
     )
   }
 };
+
+export default App;
